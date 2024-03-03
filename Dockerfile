@@ -4,4 +4,4 @@ COPY ./ /passivbot/
 
 WORKDIR /passivbot
 
-RUN pip install -r requirements_liveonly.txt
+RUN pip install -r requirements.txt

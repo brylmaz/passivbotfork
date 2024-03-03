@@ -5,5 +5,9 @@ services:
     restart: unless-stopped
     volumes:
       - ./:/app/
-    command: python passivbot.py binance_01 XMRUSDT live_configs/binance_default.json
+    command:
+      - /bin/sh
+      - -c
+      - |
+        python passivbot.py binance_01 DOGEUSDT configs/backtest/dogebest.json
     
