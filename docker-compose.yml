@@ -9,5 +9,7 @@ services:
       - /bin/sh
       - -c
       - |
-        python passivbot.py binance_01 DOGEUSDT configs/backtest/dogebest.json
+        python passivbot.py binance_01 ATOMUSDT configs/backtest/ATOMUSDT.json &
+        python passivbot.py binance_01 MATICUSDT configs/backtest/MATICUSDT.json &
+        python passivbot.py binance_01 AMBUSDT configs/backtest/AMBUSDT.json 
     
