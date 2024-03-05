@@ -11,5 +11,6 @@ services:
       - |
         python passivbot.py binance_01 ATOMUSDT configs/backtest/ATOMUSDT.json &
         python passivbot.py binance_01 MATICUSDT configs/backtest/MATICUSDT.json &
-        python passivbot.py binance_01 AMBUSDT configs/backtest/AMBUSDT.json 
+        python passivbot.py binance_01 AMBUSDT configs/backtest/AMBUSDT.json &
+        python passivbot.py binance_01 RLCUSDT configs/backtest/RLCUSDT.json 
     
