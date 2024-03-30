@@ -15,5 +15,7 @@ services:
         python passivbot.py binance_01 RLCUSDT configs/backtest/RLCUSDT.json &
         python passivbot.py binance_01 ANKRUSDT configs/backtest/ANKRUSDT.json &
         python passivbot.py binance_01 ADAUSDT configs/backtest/ADAUSDT.json &
-        python passivbot.py binance_01 CHZUSDT configs/backtest/CHZUSDT.json 
+        python passivbot.py binance_01 CHZUSDT configs/backtest/CHZUSDT.json &
+        python passivbot.py binance_02 1000SHIBUSDT configs/backtest/yasmin/1000SHIBUSDT.json &
+        python passivbot.py binance_02 MATICUSDT configs/backtest/yasmin/MATICUSDT.json
     
